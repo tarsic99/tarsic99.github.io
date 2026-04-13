@@ -28,7 +28,7 @@ a{
     font-weight: 600;
     margin-top: 7px;
     padding-left: 25px;
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .float-image{
@@ -207,4 +207,10 @@ h5{
 
 #Two{
     background: linear-gradient(105deg, rgb(251, 252, 202) -20%, rgba(255,255,255,0) 40%, rgb(132, 162, 253) 250%);
+}
+
+@media (width <= 700px) {
+    .Details{
+        margin-top: 100px;
+    }
 }
