@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    max-width: 595px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+a{
+    color: black; /* Or use the hex code #000000 */
+    text-decoration: none; /* Optional: removes the default underline */
+}
+
+#FullName{
+    font-family: Roboto;
+    /* padding-top: 10px; */
+    font-size: large;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+
+#Profession{
+    font-family: Roboto;
+    font-size: small;
+    font-weight: 600;
+    margin-top: 7px;
+    padding-left: 25px;
+    /* padding-right: 20px; */
+}
+
+.float-image{
+    float: left;
+    margin-right: 15px; /* Important for spacing */
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+main{
+    padding-top: 15px;
+}
+
+.Profile{
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 85%;
+    font-family: Roboto;
+    font-size: 9px;
+    text-align: justify;
+}
+
+.Experience{
+    padding-left: 5%;
+    width: 85%;
+    font-family: Roboto;
+    font-size: 9px;
+    text-align: justify;
+}
+
+.Details{
+    font-family: Roboto;
+    font-size: 9px;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.Links{
+    font-family: Roboto;
+    font-size: 9px;
+    text-align: justify;
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.Education{
+    font-family: Roboto;
+    font-size: 9px;
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.Skills{
+    font-family: Roboto;
+    font-size: 9px;
+    text-align: justify;
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+ul {
+  text-align: left;
+  padding-left: 10px;
+}
+
+h3{
+    margin-bottom: 0px;
+}
+
+h4{
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+h5{
+    font-weight: 100;
+    margin-top: 3px;
+}
+
+.Skills_bar .Bar{
+    margin: 2.2rem 0;
+}
+
+.Skills_bar .Bar:first-child{
+    margin-top: 0px;
+}
+
+.Skills_bar .Bar .Info{
+    margin-bottom: 5px;
+}
+
+.Skills_bar .Bar .Info span{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.Progress_line{
+    height: 3px;
+    width: 90%;
+    background: #f0f0f0;
+    border-radius: 10px;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1,0.5,0.5,1) forwards;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05),
+    0px 1px rgba(255, 255, 255, 255, 0.8);
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.Progress_line.Jira span{
+    height: 100%;
+    width: 100%;
+    background: black;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0.5,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.Progress_line.Python span{
+    height: 100%;
+    width: 80%;
+    background: black;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0.5,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.Progress_line.AI span{
+    height: 100%;
+    width: 50%;
+    background: black;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0.5,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.Progress_line.Selenium span{
+    height: 100%;
+    width: 70%;
+    background: black;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0.5,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.Progress_line.Postman span{
+    height: 100%;
+    width: 80%;
+    background: black;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0.5,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+#Two{
+    background: linear-gradient(105deg, rgb(251, 252, 202) -20%, rgba(255,255,255,0) 40%, rgb(132, 162, 253) 250%);
+}
