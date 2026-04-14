@@ -18,7 +18,7 @@ a{
     font-family: Roboto;
     font-size: large;
     font-weight: bold;
-    margin-top: 7px;
+    padding-top: 7px;
     margin-bottom: 3px;
 }
 
@@ -28,7 +28,7 @@ a{
     font-weight: 600;
     margin-top: 7px;
     padding-left: 25px;
-    padding-right: 50px;
+    padding-right: 15px;
 }
 
 .float-image{
@@ -45,7 +45,7 @@ main{
 
 .Profile{
     padding-left: 5%;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 5px;
     width: 85%;
     font-family: Roboto;
@@ -209,8 +209,8 @@ h5{
     background: linear-gradient(105deg, rgb(251, 252, 202) -20%, rgba(255,255,255,0) 40%, rgb(132, 162, 253) 250%);
 }
 
-@media (width <= 700px) {
+@media screen and (max-width: 450px) {
     .Details{
-        margin-top: 100px;
+        margin-top: 122px;
     }
 }
