@@ -213,4 +213,9 @@ h5{
     .Details{
         margin-top: 122px;
     }
+
+    #Fullname{
+        padding-top: 0px;
+        margin-top: 0px;
+    }
 }
